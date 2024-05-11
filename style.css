@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  list-style-position: inside;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  color: #d4d4d4;
+}
+
+/* header */
+header {
+  background-color: #2b2b2b;
+  color: #d4d4d4;
+  padding-top: 2px;
+}
+
+nav {
+  display: flex;
+  background-color: #181818;
+}
+
+nav div {
+  display: flex;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav div a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-active {
+  border-top: #007acc solid 2px;
+  padding: 1%;
+  background-color: #2b2b2b;
+}
+
+.nav-inactive {
+  padding: 1%;
+}
+
+.nav-inactive:hover {
+  background-color: #2b2b2b;
+  border-top: #007acc solid 2px;
+}
+
+.fa-html5 {
+  color: #e44f26;
+}
+
+.fa-css3-alt {
+  color: #33a9dc;
+}
+
+.fa-js {
+  color: #f5de19;
+}
+
+#intro {
+  padding-left: 3%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+h1 {
+  color: #8cdcfe;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+header span {
+  font-size: 1.25rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+.gray {
+  color: #808073;
+}
+
+.blue {
+  color: #2667cb;
+}
+
+.orange {
+  color: #ce9178;
+}
+
+.yelow {
+  color: #ffd700;
+}
+
+.green {
+  color: #b5cea8;
+}
+/* header. */
+
+/* main */
+main {
+  padding: 50px 0;
+  background-color: #2b2b2b;
+}
+
+.project-wrapper {
+  display: grid;
+  max-width: 1140px;
+  margin: 0 auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, minmax(400px, auto));
+}
+
+.project-wrapper a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+h3 {
+  font-size: 2rem;
+  display: block;
+  filter: blur(0);
+}
+
+.project-1 {
+  background-image: url("./images/Age-App.jpg");
+  background-size: cover;
+}
+
+.project-2 {
+  background-image: url("./images/Torr\ FoodTech.png");
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/4;
+}
+
+.project-3 {
+  background-image: url("./images/Tama-Mobile.jpg");
+  background-size: cover;
+  grid-column: 4;
+  grid-row: 1/3;
+}
+
+.project-4 {
+  background-image: url("./images/SUPRA\ Dental\ Innovations.png");
+  background-size: cover;
+  grid-column: 1/4;
+}
+
+.project-5 {
+  background-image: url("https://placehold.co/300x400");
+  background-size: cover;
+  grid-column: 1/5;
+}
+
+.project-6 {
+  background-image: url("./images/Mandel.png");
+  background-position: 97%;
+  background-size: cover;
+  grid-column: 1/3;
+}
+
+.project-7 {
+  background-image: url("./images/Ran\ Poliakine.png");
+  background-size: cover;
+  background-position: 90%;
+  grid-column: 3/5;
+}
+
+/* main. */
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: #d4d4d4;
+}
+
+footer div {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+footer a {
+  color: #d4d4d4;
+}
+/* footer. */
