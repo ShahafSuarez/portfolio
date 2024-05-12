@@ -10,6 +10,14 @@
   color: #d4d4d4;
 }
 
+.mobile {
+  display: none;
+}
+
+.tablet {
+  display: none;
+}
+
 /* header */
 header {
   background-color: #2b2b2b;
@@ -63,10 +71,46 @@ nav div a {
   color: #f5de19;
 }
 
-#intro {
-  padding-left: 3%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+.intro {
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+header ol {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+header li {
+  display: block;
+  margin-left: 2em;
+  font-size: 1.25rem;
+}
+
+header li::before {
+  display: inline-block;
+  content: counter(item) "";
+  counter-increment: item;
+  width: 2.25em;
+  margin-left: -2em;
+  color: #808073;
+}
+
+header ol li a {
+  font-size: 1.25rem;
+  color: #2667cb;
+}
+
+header ol li a span {
+  text-decoration: #00ccb8 underline;
+  color: #00ccb8;
+}
+
+header ol li a span:hover {
+  text-decoration: #22cc00 wavy underline;
+  color: #22cc00;
 }
 
 h1 {
@@ -91,6 +135,10 @@ header p {
   color: #2667cb;
 }
 
+.blue2 {
+  color: #8cdcfe;
+}
+
 .orange {
   color: #ce9178;
 }
@@ -99,8 +147,20 @@ header p {
   color: #ffd700;
 }
 
+.yelow2 {
+  color: #b4ba7d;
+}
+
 .green {
   color: #b5cea8;
+}
+
+.green2 {
+  color: #5e9955;
+}
+
+.purple {
+  color: #9579c0;
 }
 /* header. */
 
@@ -124,6 +184,8 @@ h2 {
   display: grid;
   max-width: 1140px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, minmax(400px, auto));
@@ -146,13 +208,15 @@ h3 {
 .project-1 {
   background-image: url("./images/Age-App.jpg");
   background-size: cover;
+  grid-column: 1/2;
+  grid-row: 2;
 }
 
 .project-2 {
   background-image: url("./images/Torr\ FoodTech.png");
   background-size: cover;
-  background-position: center;
-  grid-column: 2/4;
+  grid-column: 1/4;
+  grid-row: 1;
 }
 
 .project-3 {
@@ -165,23 +229,19 @@ h3 {
 .project-4 {
   background-image: url("./images/SUPRA\ Dental\ Innovations.png");
   background-size: cover;
-  grid-column: 1/4;
+  background-position: center;
+  grid-column: 2/4;
+  grid-row: 2;
 }
 
 .project-5 {
-  background-image: url("https://placehold.co/300x400");
-  background-size: cover;
-  grid-column: 1/5;
-}
-
-.project-6 {
   background-image: url("./images/Mandel.png");
   background-position: 97%;
   background-size: cover;
   grid-column: 1/3;
 }
 
-.project-7 {
+.project-6 {
   background-image: url("./images/Ran\ Poliakine.png");
   background-size: cover;
   background-position: 90%;

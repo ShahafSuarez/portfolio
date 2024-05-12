@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- links -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./responsive-mobile.css">
+    <link rel="stylesheet" href="./responsive-tablet.css">
+    <link rel="stylesheet" href="./responsive-laptop">
+    <link rel="stylesheet" href="./responsive-laptop-large">
     <!-- scripts -->
     <script src="./main.js"></script>
     <script src="https://kit.fontawesome.com/291244f1f2.js" crossorigin="anonymous"></script>
@@ -25,33 +28,69 @@
     <header>
         <nav>
             <div class="nav-active"><a href="./index.html"><i class="fa-brands fa-html5"></i>portfolio.html</a></div>
-            <div class="nav-inactive"><a href=""><i class="fa-brands fa-css3-alt"></i>about.css</a></div>
-            <div class="nav-inactive"><a href=""><i class="fa-brands fa-js"></i>contact.js</a></div>
+            <div class="nav-inactive"><a href="./about.html"><i class="fa-brands fa-css3-alt"></i>about.css</a></div>
+            <div class="nav-inactive"><a href="./contact.html"><i class="fa-brands fa-js"></i>contact.js</a></div>
         </nav>
-        <section id="intro">
-            <h1>
-                <span class="gray">1 </span><span class="gray">&nbsp<</span><span class="gray">!</span
-                            class="blue"><span class="blue">DOCTYPE </span>portfolio<span class="gray">></span>
-            </h1>
-            <div>
-                <p><span class="gray">2</span><span class="blue">&nbsp&nbsplet</span> developer = {<br>
-                    <span class="gray">3</span>&nbsp&nbsp&nbsp&nbspname: <span class="orange">'Shahaf
-                        Suarez'</span>;<br>
-                    <span class="gray">4</span>&nbsp&nbsp&nbsp&nbspbirthYear: <span class="green">1990</span>;<br>
-                    <span class="gray">5</span>&nbsp&nbsp&nbsp&nbsplocations: <span class="yelow">[</span><span
-                        class="orange">'Israel'</span>, <span class="orange">'Remote'</span><span
-                        class="yelow">]</span>;<br>
-                    <span class="gray">6</span>&nbsp&nbsp&nbsp&nbspspecialty: <span class="orange">'Front-End
-                        developing'</span>;<br>
-                    <span class="gray">7</span>&nbsp&nbsp}<br>
-                    <span class="gray">8</span>&nbsp&nbsp<i
-                        class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i>
-                </p>
-            </div>
+
+        <section class="intro desktop">
+            <ol>
+                <li><span class="gray">&lt;</span><span class="gray">!</span><span class="blue">DOCTYPE
+                    </span><span class="blue2">portfolio</span><span class="gray">&gt;</span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;h2&gt;</span>Some of My Work<span class="blue">&lt;h2&gt;</span></span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;p&gt;</span>Here's a taste of the projects and web apps I've worked
+                        on.</span></li>
+                <li></li>
+                <li><span>Feel free to browse and click on the images below</span></li>
+                <li><span>to navigate to each site or app and explore further.</span></span><span
+                        class="blue">&lt;/p&gt;</span></li>
+                <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
+            </ol>
+        </section>
+
+        <section class="intro mobile">
+            <ol>
+                <li><span class="gray">&lt;</span><span class="gray">!</span><span class="blue">DOCTYPE
+                    </span><span class="blue2">portfolio</span><span class="gray">&gt;</span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;h2&gt;</span>Some of My Work<span class="blue">&lt;h2&gt;</span></span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;p&gt;</span>Here's a taste of the projects and
+                    </span></li>
+                <li><span>web apps I've worked on.</span></li>
+                <li></li>
+                <li><span>Feel free to browse and click on the</span></li>
+                <li><span>images below to navigate to each site</span></li>
+                <li><span>or app and explore further.</span><span class="blue">&lt;/p&gt;</span></li>
+                <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
+            </ol>
+        </section>
+        
+        <section class="intro tablet">
+            <ol>
+                <li><span class="gray">&lt;</span><span class="gray">!</span><span class="blue">DOCTYPE
+                    </span><span class="blue2">portfolio</span><span class="gray">&gt;</span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;h2&gt;</span>Some of My Work<span class="blue">&lt;h2&gt;</span></span>
+                </li>
+                <li></li>
+                <li><span><span class="blue">&lt;p&gt;</span>Here's a taste of the projects and web apps I've worked
+                        on.</span></li>
+                <li></li>
+                <li><span>Feel free to browse and click on the images below to navigate to</span></li>
+                <li><span>each site or app and explore further.</span><span class="blue">&lt;/p&gt;</span></li>
+                <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
+            </ol>
         </section>
     </header>
 
-    <main class="container">
+    <main>
         <div class="h2-title">
             <h2>Some of the work I've done</h2>
         </div>
@@ -68,10 +107,10 @@
             <a class="project-4" href="https://dev-protetikalabs.mycodix.com/" target="_blank">
                 <div></div>
             </a>
-            <a class="project-6" href="https://grad.mandelfoundation.org.il/" target="_blank">
+            <a class="project-5" href="https://grad.mandelfoundation.org.il/" target="_blank">
                 <div></div>
             </a>
-            <a class="project-7" href="https://wordpress-837453-4054254.cloudwaysapps.com/" target="_blank">
+            <a class="project-6" href="https://wordpress-837453-4054254.cloudwaysapps.com/" target="_blank">
                 <div></div>
             </a>
         </section>
