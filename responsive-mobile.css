@@ -105,6 +105,15 @@
   }
   /* grid. */
 
+  /* main */
+  .skills {
+    width: 300px;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+  /* main. */
+
   /* footer */
   footer {
     display: flex;

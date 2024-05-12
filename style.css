@@ -10,6 +10,11 @@
   color: #d4d4d4;
 }
 
+.desktop {
+  display: flex;
+  gap: 10%;
+}
+
 .mobile {
   display: none;
 }
@@ -59,15 +64,15 @@ nav div a {
   border-top: #007acc solid 2px;
 }
 
-.fa-html5 {
+nav .fa-html5 {
   color: #e44f26;
 }
 
-.fa-css3-alt {
+nav .fa-css3-alt {
   color: #33a9dc;
 }
 
-.fa-js {
+nav .fa-js {
   color: #f5de19;
 }
 
@@ -119,7 +124,7 @@ h1 {
   font-weight: 400;
 }
 
-header span {
+span {
   font-size: 1.25rem;
 }
 
@@ -166,7 +171,7 @@ header p {
 
 /* main */
 main {
-  padding: 50px 0;
+  padding: 21px 0;
   background-color: #2b2b2b;
 }
 
@@ -248,6 +253,19 @@ h3 {
   grid-column: 3/5;
 }
 
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 2rem;
+  padding-left: 6rem;
+  padding-bottom: 2.25rem;
+}
+
+.skills i:hover {
+  color: #00ccb8;
+}
 /* main. */
 
 /* footer */
