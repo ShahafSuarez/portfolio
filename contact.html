@@ -35,7 +35,7 @@
                 <li><span class="purple">import </span><span class="blue2">contactMe </span><span class="purple">from
                     </span><span class="orange">'./contact.js'</span>;</li>
                 <li></li>
-                <li><span class="blue">let</span> developer = {</li>
+                <li><span class="blue">let </span>developer = {</li>
                 <li>name: <span class="orange">'Shahaf Suarez'</span>,</li>
                 <li>birthYear: <span class="green">1990</span>,</li>
                 <li>location: <span class="yelow">[</span><span class="orange">'Israel'</span>, <span
@@ -44,12 +44,15 @@
                         developing'</span></li>
                 <li>}</li>
                 <li></li>
-                <li><span class="blue">let</span> contactMe = {</li>
+                <li><span class="blue">let </span>contactMe = {</li>
                 <li><span class="green2">// click the email or phone:</span></li>
                 <li>&nbsp&nbspemail: <a href="mailto:shahafsuarez@gmail.com"
                         class="orange">'shahafsuarez@gmail.com'</a>,</li>
                 <li>&nbsp&nbspphone: <a href="tel:+972525331270" class="green">0525331270</a></li>
                 <li>}</li>
+                <li></li>
+                <li><span class="blue">const </span><span class="yelow2">letsTalk </span>= <span class="yelow">()
+                    </span><span class="blue">=> </span><span class="yelow">{</span></li>
                 <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
             </ol>
             <div>
@@ -77,6 +80,9 @@
                         class="orange">'shahafsuarez@gmail.com'</a>,</li>
                 <li>&nbsp&nbspphone: <a href="tel:+972525331270" class="green">0525331270</a></li>
                 <li>}</li>
+                <li></li>
+                <li><span class="blue">const </span><span class="yelow2">letsTalk </span>= <span class="yelow">()
+                    </span><span class="blue">=> </span><span class="yelow">{</span></li>
                 <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
             </ol>
         </section>
@@ -101,22 +107,31 @@
                         class="orange">'shahafsuarez@gmail.com'</a>,</li>
                 <li>&nbsp&nbspphone: <a href="tel:+972525331270" class="green">0525331270</a></li>
                 <li>}</li>
+                <li></li>
+                <li><span class="blue">const </span><span class="yelow2">letsTalk </span>= <span class="yelow">()
+                    </span><span class="blue">=> </span><span class="yelow">{</span></li>
                 <li><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i></li>
             </ol>
         </section>
     </header>
 
-    <!-- <main class="main-contact">
-        <form action="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Enter your email"><br>
-
-            <button type="submit">Submit</button>
+    <main class="main-contact">
+        <form id="form" action="https://formsubmit.co/shahafsuarez@gmail.com" method="POST">
+            <div class="input-container">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="input-container">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="form-btn">Submit</button>
         </form>
-    </main> -->
+    </main>
 
     <footer>
         <div class="contact-footer">

@@ -175,6 +175,49 @@ main {
   background-color: #2b2b2b;
 }
 
+.main-contact {
+  padding: 0 0 40px 80px;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 400px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.input-container input,
+textarea {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  color: #2b2b2b;
+}
+
+button.form-btn {
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background: #00ccb8;
+  color: #181818;
+}
+
+button.form-btn:hover {
+  background: #007acc;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+/* form. */
+
 .h2-title {
   display: flex;
   justify-content: center;

@@ -105,6 +105,18 @@
   }
   /* grid. */
 
+  .main-contact {
+    padding: 0 0 40px 40px;
+  }
+
+  /* form */
+  form {
+    display: flex;
+    row-gap: 0.85rem;
+    width: 300px;
+  }
+  /* form. */
+
   /* main */
   .skills {
     width: 300px;
