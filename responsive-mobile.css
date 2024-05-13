@@ -56,7 +56,7 @@
   header ol li a {
     font-size: 14px;
   }
-  
+
   .main-ol li {
     font-size: 14px;
   }
@@ -64,7 +64,7 @@
   .main-ol li span {
     font-size: 14px;
   }
-  
+
   .main-ol li::before {
     margin-left: -3.9em;
   }
@@ -140,32 +140,24 @@
 
   /* footer */
   footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-footer p {
-    display: none;
+    justify-content: space-between;
   }
 
   footer div {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 0.25rem;
-    margin-bottom: 0.25rem;
+    gap: 0;
   }
 
-  footer a {
-    color: #d4d4d4;
+  footer div.contact-footer {
+    gap: 1.25rem;
   }
 
-  .hide {
+  .fa-bell::before {
     display: none;
   }
-  .fa-bell::before {
+
+  .m-hide {
     display: none;
   }
   /* footer. */

@@ -346,11 +346,15 @@ footer {
 
 footer div {
   display: flex;
+  align-items: center;
   gap: 1rem;
-  justify-content: center;
 }
 
 footer a {
   color: #d4d4d4;
+}
+
+footer a i:hover {
+  color: #00ccb8;
 }
 /* footer. */
