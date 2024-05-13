@@ -56,6 +56,18 @@
   header ol li a {
     font-size: 14px;
   }
+  
+  .main-ol li {
+    font-size: 14px;
+  }
+
+  .main-ol li span {
+    font-size: 14px;
+  }
+  
+  .main-ol li::before {
+    margin-left: -3.9em;
+  }
   /* header. */
 
   main {

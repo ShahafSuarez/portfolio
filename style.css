@@ -118,6 +118,27 @@ header ol li a span:hover {
   color: #22cc00;
 }
 
+.main-ol {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.main-ol li {
+  display: block;
+  margin-left: 2em;
+  font-size: 1.25rem;
+}
+
+.main-ol li::before {
+  display: inline-block;
+  content: counter(item) "7";
+  counter-increment: item;
+  width: 2.25em;
+  margin-left: -4.1em;
+  color: #808073;
+}
+
 h1 {
   color: #8cdcfe;
   font-size: 1.25rem;
