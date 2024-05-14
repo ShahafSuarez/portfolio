@@ -118,8 +118,21 @@
   /* grid. */
 
   .main-contact {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
     padding: 0 0 40px 40px;
   }
+
+  /* memory-game */
+  .grid {
+    width: 300px;
+  }
+
+  #result {
+    font-size: 14px;
+  }
+  /* memory-game. */
 
   /* form */
   form {

@@ -197,6 +197,8 @@ main {
 }
 
 .main-contact {
+  display: flex;
+  gap: 5%;
   padding: 0 0 40px 80px;
 }
 
@@ -276,28 +278,28 @@ h3 {
 }
 
 .project-1 {
-  background-image: url("./images/Age-App.jpg");
+  background-image: url("./images/projects/Age-App.jpg");
   background-size: cover;
   grid-column: 1/2;
   grid-row: 2;
 }
 
 .project-2 {
-  background-image: url("./images/Torr\ FoodTech.png");
+  background-image: url("./images/projects/Torr\ FoodTech.png");
   background-size: cover;
   grid-column: 1/4;
   grid-row: 1;
 }
 
 .project-3 {
-  background-image: url("./images/Tama-Mobile.jpg");
+  background-image: url("./images/projects/Tama-Mobile.jpg");
   background-size: cover;
   grid-column: 4;
   grid-row: 1/3;
 }
 
 .project-4 {
-  background-image: url("./images/SUPRA\ Dental\ Innovations.png");
+  background-image: url("./images/projects/SUPRA\ Dental\ Innovations.png");
   background-size: cover;
   background-position: center;
   grid-column: 2/4;
@@ -305,14 +307,14 @@ h3 {
 }
 
 .project-5 {
-  background-image: url("./images/Mandel.png");
+  background-image: url("./images/projects/Mandel.png");
   background-position: 97%;
   background-size: cover;
   grid-column: 1/3;
 }
 
 .project-6 {
-  background-image: url("./images/Ran\ Poliakine.png");
+  background-image: url("./images/projects/Ran\ Poliakine.png");
   background-size: cover;
   background-position: 90%;
   grid-column: 3/5;
@@ -331,6 +333,20 @@ h3 {
 .skills i:hover {
   color: #00ccb8;
 }
+
+/* memory-game */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: fit-content;
+}
+
+#result {
+  font-size: 1rem;
+}
+/* memory-game. */
+
 /* main. */
 
 /* footer */

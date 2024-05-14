@@ -134,6 +134,9 @@
   /* grid. */
 
   .main-contact {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
     padding: 0 0 40px 40px;
   }
 

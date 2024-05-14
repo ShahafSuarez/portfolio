@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./responsive-tablet.css">
     <!-- scripts -->
     <script src="./main.js"></script>
+    <script src="memory-app.js" charset="utf-8"></script>
     <script src="https://kit.fontawesome.com/291244f1f2.js" crossorigin="anonymous"></script>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,26 +114,32 @@
     </header>
 
     <main class="main-contact">
-        <form id="form" action="https://formsubmit.co/shahafsuarez@gmail.com" method="POST">
-            <div class="input-container">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required />
-            </div>
-            <div class="input-container">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required />
-            </div>
-            <div class="input-container">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="form-btn">Submit</button>
-        </form>
-        <ol class="main-ol" start="17">
-            <li><span class="yelow">}</span><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i>
-            </li>
-        </ol>
+        <section>
+            <form id="form" action="https://formsubmit.co/shahafsuarez@gmail.com" method="POST">
+                <div class="input-container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="input-container">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="form-btn">Submit</button>
+            </form>
+            <ol class="main-ol" start="17">
+                <li><span class="yelow">}</span><i class="fa-regular fa-window-minimize fa-fade fa-rotate-90 fa-1x"></i>
+                </li>
+            </ol>
+        </section>
 
+        <section>
+            <p>Score: <span id="result"></span></p>
+            <div class="grid"></div>
+        </section>
     </main>
 
     <footer>
