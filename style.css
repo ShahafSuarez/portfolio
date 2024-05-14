@@ -32,6 +32,8 @@ header {
 
 nav {
   display: flex;
+  position: sticky;
+  top: 0px;
   background-color: #181818;
 }
 
